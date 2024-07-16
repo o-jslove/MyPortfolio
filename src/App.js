@@ -38,25 +38,25 @@ function App() {
           <Project
             id="project1"
             video={projectVideo}
-            description="Description of project 1."
+            description="프로젝트 설명 1"
             active={activeProject === "project1"}
           />
           <Project
             id="project2"
             video={projectVideo}
-            description="Description of project 2."
+            description="프로젝트 설명 2"
             active={activeProject === "project2"}
           />
           <Project
             id="project3"
             video={projectVideo}
-            description="Description of project 3."
+            description="프로젝트 설명 3"
             active={activeProject === "project3"}
           />
           <Project
             id="project4"
             video={projectVideo}
-            description="Description of project 4."
+            description="프로젝트 설명 4"
             active={activeProject === "project4"}
           />
         </Section>
@@ -66,12 +66,8 @@ function App() {
           active={activeSection === "degrees"}
         >
           <div className="degree">
-            <h3>Bachelor's Degree in Computer Science</h3>
-            <p>University Name, Year</p>
-          </div>
-          <div className="degree">
-            <h3>Master's Degree in Software Engineering</h3>
-            <p>University Name, Year</p>
+            <h3>소프트웨어공학과 전공, 정보통신공학과 부전공</h3>
+            <p>성공회대학교, 2017-2025</p>
           </div>
         </Section>
         <Section
@@ -81,7 +77,7 @@ function App() {
         >
           <div className="links">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/o-jslove"
               target="_blank"
               rel="noopener noreferrer"
               className="icon"
