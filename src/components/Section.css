@@ -4,6 +4,7 @@
   opacity: 0.3;
   margin: 15rem 0px; /* 마진을 약간 더 추가 */
   position: relative;
+  z-index: 1; /* 섹션의 z-index를 낮게 설정 */
 }
 
 .section.active {
