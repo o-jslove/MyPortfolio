@@ -8,6 +8,7 @@ function Header() {
       <video autoPlay loop muted className="header-video">
         <source src={backgroundVideo} type="video/mp4" />
       </video>
+      <div className="header-overlay"></div>
       <div className="header-content">
         <h1>Min Seok Lee</h1>
         <p>Full Stack Developer</p>

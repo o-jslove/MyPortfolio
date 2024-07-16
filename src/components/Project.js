@@ -9,6 +9,7 @@ function Project({ id, video, description, active }) {
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+        <div className="project-overlay"></div>
       </div>
       <div className="project-description">
         <p>{description}</p>
