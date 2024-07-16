@@ -17,6 +17,7 @@
   height: 100%;
   object-fit: cover;
   z-index: -1;
+  pointer-events: none; /* 비디오 클릭 방지 */
 }
 
 .header-content {
