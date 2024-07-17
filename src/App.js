@@ -85,7 +85,7 @@ function App() {
               <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
             <a
-              href="https://velog.io/@yourusername"
+              href="https://velog.io/@useridnull"
               target="_blank"
               rel="noopener noreferrer"
               className="icon"
