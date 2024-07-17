@@ -1,6 +1,5 @@
 .project {
   display: flex;
-  align-items: center;
   margin-bottom: 2rem;
   transition: transform 0.5s, opacity 0.5s;
   opacity: 0.3;

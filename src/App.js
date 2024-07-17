@@ -27,7 +27,7 @@ function App() {
         <Section
           id="about"
           title="About Me"
-          description="Hello! I am a passionate developer with experience in various projects. I love coding and continuously learning new technologies."
+          description="Hello! I am currently working on my portfolio. I aspire to become a passionate and evolving developer through various experiences in the future. Additionally, I aim to be a developer who can contribute to making the world a better place to live."
           active={activeSection === "about"}
         />
         <Section
@@ -38,26 +38,38 @@ function App() {
           <Project
             id="project1"
             video={projectVideo}
-            description="프로젝트 설명 1"
+            duration="xxxx.xx-xxxx.xx"
+            teamSize="x명"
+            technologies={["React", "SpringBoot", "MongoDB"]}
             active={activeProject === "project1"}
+            link="https://github.com/o-jslove?tab=repositories"
           />
           <Project
             id="project2"
             video={projectVideo}
-            description="프로젝트 설명 2"
+            duration="xxxx.xx-xxxx.xx"
+            teamSize="x명"
+            technologies={["React", "SpringBoot", "MongoDB"]}
             active={activeProject === "project2"}
+            link="https://github.com/o-jslove?tab=repositories"
           />
           <Project
             id="project3"
             video={projectVideo}
-            description="프로젝트 설명 3"
+            duration="xxxx.xx-xxxx.xx"
+            teamSize="x명"
+            technologies={["React", "SpringBoot", "MongoDB"]}
             active={activeProject === "project3"}
+            link="https://github.com/o-jslove?tab=repositories"
           />
           <Project
             id="project4"
             video={projectVideo}
-            description="프로젝트 설명 4"
+            duration="xxxx.xx-xxxx.xx"
+            teamSize="x명"
+            technologies={["React", "SpringBoot", "MongoDB"]}
             active={activeProject === "project4"}
+            link="https://github.com/o-jslove?tab=repositories"
           />
         </Section>
         <Section

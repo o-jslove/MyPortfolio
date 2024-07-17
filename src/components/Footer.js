@@ -17,7 +17,7 @@ function Footer() {
       if (!pause) {
         techStack.scrollLeft += scrollAmount;
         if (techStack.scrollLeft >= techStackContent.scrollWidth) {
-          techStack.scrollLeft = 10;
+          techStack.scrollLeft = 9;
         }
       }
       requestAnimationFrame(scroll);
